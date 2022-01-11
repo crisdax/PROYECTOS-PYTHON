@@ -1,0 +1,79 @@
+Busca ='Tipo_de_sangre'
+    if Busca in Doc:
+        for s in Doc:
+            if Busca == 'Tipo_de_sangre':
+                NDA ={(len(s.Tipo_de_sangre))}
+    if Busca in Doc:
+        for s in Doc:
+            if Busca == 'Nombres':
+                NDA ={(len(s.Nombres))}
+    if Busca in Doc:
+        for s in Doc:
+            if Busca == 'Genero':
+
+
+
+
+
+
+
+def Filtrar_Contenido(Doc):
+
+    CB = (s.Nombres for s in Doc)
+    CD = {Counter:CB}
+    return list(CD)
+
+
+
+
+def Filtrar_Contenido(Doc):
+    CD = {}
+    CB =[s.Nombres for s in Doc]
+    CD = Counter[str(CB)]
+    return CD
+
+
+
+2)  Total = {}
+    TotalG = 1
+    Cuando_Desparecio =[s.Cuando_Desparecio[6:10] for s  in Doc]
+    Genero = (list(s.Genero for s in Doc))
+    for g in Cuando_Desparecio:
+        if g == "2018":
+            a = Counter((Cuando_Desparecio))
+            b = a.items()
+    return print(Total)
+
+
+3) ConvertidorBool = [True if "true" in s else False for s in Datos2]
+    Datos = [s.Cuerpo for s in Doc if ConvertidorBool == False]
+    CC = {Ca: Datos.count(Ca)*100/1000 for Ca in Datos if Ca !=""}
+    Contador = Counter(CC)
+    Agrupador = Contador.items()
+    Porcentaje = dict(Agrupador)
+    Resultado= print("{}".format(Porcentaje))
+    return Resultado
+    :param Doc:
+    :return: """
+
+
+
+
+    plt.bar(Datos, CC)
+    plt.xlabel('SEXO DE LOS DESAPARECIDOS')
+    plt.xlabel('Tipo_de_sangre de sangre')
+    plt.title('CUANTAS PERSONAS TIENEN ')
+    plt.legend(loc='lower right')
+    plt.show()
+
+
+
+
+    4) def Iniciales (Doc):
+    Datos =[s.Nombres for s in Doc]
+    Diccionario= {Ca: Datos.count(Ca) for Ca in Datos }
+    Contador = Counter(Diccionario)
+    Items = Contador.items()
+    Iniciales=(dict(Items))
+    Resultado = ("Total de personas con la inicial :  {}".format(Iniciales))
+    return Resultado
